@@ -1,0 +1,5 @@
+*.pyc
+*.db
+rollbar_udp_agent.egg-info/
+dist/
+build/

@@ -1,0 +1,5 @@
+include LICENSE
+include README.rst
+include requirements.txt
+include rollbar-udp-agent.conf
+include rollbar-udp-agent
