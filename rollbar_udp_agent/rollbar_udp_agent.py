@@ -174,6 +174,8 @@ class Reporter(threading.Thread):
             if self.bulk_report:
                 bulk_data.append(json_data['data'])
             else:
+                if self.api_key != None:
+                    self.dict_replace(json_data, 'access_token', self.api_key)
                 self.http_request(json_data)
 
         if self.bulk_report:
