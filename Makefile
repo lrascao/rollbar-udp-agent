@@ -4,6 +4,9 @@ all: build
 build:
 	python setup.py build sdist
 
+develop: build
+	python setup.py develop
+
 upload: build
 	twine upload dist/*
 
