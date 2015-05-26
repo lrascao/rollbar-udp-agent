@@ -13,7 +13,7 @@ except IOError:
 
 setup(
     name='rollbar-udp-agent',
-    version='0.0.13',
+    version='0.0.14',
     description='Rollbar server-side UDP agent',
     long_description=README,
     author='Luis Rascão',
