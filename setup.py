@@ -13,7 +13,7 @@ except IOError:
 
 setup(
     name='rollbar-udp-agent',
-    version='0.0.13',
+    version='0.0.14',
     description='Rollbar server-side UDP agent',
     long_description=README,
     author='Luis Rascão',
@@ -25,8 +25,8 @@ setup(
         ],
     },
     packages=['rollbar_udp_agent'],
-    data_files=[('etc', ['rollbar-udp-agent.conf']),
-                ('etc/init.d', ['rollbar-udp-agent'])],
+    data_files=[('/etc', ['rollbar-udp-agent.conf']),
+                ('/etc/init.d', ['rollbar-udp-agent'])],
     classifiers=[
         "Programming Language :: Python",
         "License :: OSI Approved :: MIT License",
