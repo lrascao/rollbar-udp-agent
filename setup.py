@@ -25,8 +25,8 @@ setup(
         ],
     },
     packages=['rollbar_udp_agent'],
-    data_files=[('etc', ['rollbar-udp-agent.conf']),
-                ('etc/init.d', ['rollbar-udp-agent'])],
+    data_files=[('/etc', ['rollbar-udp-agent.conf']),
+                ('/etc/init.d', ['rollbar-udp-agent'])],
     classifiers=[
         "Programming Language :: Python",
         "License :: OSI Approved :: MIT License",
