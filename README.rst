@@ -1,6 +1,6 @@
 rollbar-udp-agent
 =============
-A daemon that listens on a udp port and pushes message to Rollbar_.
+A daemon that listens on a udp port and pushes messages to Rollbar.
 
 Requirements
 ------------
@@ -13,6 +13,12 @@ rollbar-udp-agent requires:
 
 Installation
 ------------
+
+**Installing**
+
+Obtain a post_server_item access token from your project's Rollbar settings page and execute
+
+    ROLLBAR_ACCESS_TOKEN=post_server_item_access_token bash -c "$(curl -L https://raw.githubusercontent.com/lrascao/rollbar-udp-agent/master/setup.sh)"
 
 **Installing with pip**
 
